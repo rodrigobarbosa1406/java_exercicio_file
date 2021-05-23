@@ -49,6 +49,8 @@ public class Program {
 					bw.write(x.toString());
 					bw.newLine();
 				}
+				
+				System.out.println("Arquivo " + arquivoSummary + " criado!");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
